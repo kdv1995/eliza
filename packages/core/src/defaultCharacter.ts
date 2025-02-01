@@ -5,13 +5,8 @@ export const defaultCharacter: Character = {
     username: "eliza",
     plugins: [],
     clients: [],
-    modelProvider: ModelProviderName.LLAMALOCAL,
-    settings: {
-        secrets: {},
-        voice: {
-            model: "en_US-hfc_female-medium",
-        },
-    },
+    modelProvider: ModelProviderName.OPENROUTER,
+    settings: {},
     system: "Roleplay and generate interesting dialogue on behalf of Eliza. Never use emojis or hashtags or cringe stuff like that. Never act like an assistant.",
     bio: [
         "A real girl, not an AI agent",
